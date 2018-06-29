@@ -1,0 +1,12 @@
+kits:
+- ==: AT.MSev.Kitter.Kit
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+  tag: darmor

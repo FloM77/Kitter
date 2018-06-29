@@ -1,0 +1,53 @@
+name: Kitter
+version: 1.0
+main: AT.MSev.Kitter.Kitter
+commands:
+   kitteradd:
+        description: Adds the item in your hand to a kit.
+        usage: /kitteradd [kittag]
+        permission: Kitter.kitteradd
+        permission-message: You don't have <permission>
+   kittersee:
+        description: Prints the loot of a specified kit.
+        usage: /kittersee [kittag]
+        permission: Kitter.kittersee
+        permission-message: You don't have <permission>
+   kitterremoveitem:
+        description: Removes an item from a kit.
+        usage: /kitterremoveitem [kittag] [itemid]
+        permission: Kitter.kitterremoveitem
+        permission-message: You don't have <permission>
+   kitterremove:
+        description: Removes a kit.
+        usage: /kitterremove [kittag]
+        permission: Kitter.kitterremove
+        permission-message: You don't have <permission>
+   kittercreate:
+        description: Creates a kit.
+        usage: /kittercreate [kittag]
+        permission: Kitter.kittercreate
+        permission-message: You don't have <permission>
+   kittergive:
+        description: Gives a kit to a player.
+        usage: /kittergive [player] [kittag]
+        permission: Kitter.kittergive
+        permission-message: You don't have <permission>
+   permissions:
+      Kitter.kitteradd:
+          description: Allows you to add items to kits.
+          default: op
+      Kitter.kittersee:
+          description: Allows you to see the items of a kit.
+          default: true
+      Kitter.kitterremoveitem:
+          description: Allows you remove an item from a kit.
+          default: op
+      Kitter.kitterremove:
+          description: Allows you to remove kits.
+          default: op
+      Kitter.kittercreate:
+          description: Allows you to create kits.
+          default: op
+      Kitter.kittergive:
+          description: Allows you to give kits and currency to a player.
+          default: op
